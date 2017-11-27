@@ -32,5 +32,7 @@ int	main(int ac, char const * const *av)
 	my_rev_list(&la);
 	sort_list(&la, &lb);
 	write(1, "\n", 1);
+	la = my_delete_nodes(la);
+	la = my_delete_nodes(la);
 	return (0);
 }

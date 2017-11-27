@@ -8,11 +8,8 @@
 SRC	=   	main.c			\
 		lib/my_getnbr.c		\
 		lib/my_strlen.c		\
+		lib/my_delete_nodes.c	\
 		lib/my_putstr.c		\
-		lib/my_apply_on_list.c	\
-		lib/my_find_node.c	\
-		lib/my_list_size.c	\
-		lib/my_map_if_eq.c	\
 		lib/my_params_to_list.c	\
 		lib/my_rev_list.c	\
 		lib/push_in_list.c	\
